@@ -3,7 +3,8 @@
   --color-txt-main-slate: #434455;
   --color-txt-nav-hover-ocean: #404bbf;
   --color-txt-nav-navy-blue: #2e2f42;
-  /* Frame colors */
+  /* BG colors */
+  --color-btn-hover-ocean: #404bbf;
   --color-iris: #4d5ae5;
   --color-green: #31d0aa;
   --color-light-slate: #8e8f99;
@@ -28,17 +29,32 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-txt-main-slate);
+  /*  
+  text-align: inherit;
+  */
 }
 .section {
 }
 .logo {
 }
-/* Reset */
+/* Reset  styles*/
 .link {
   text-decoration: none;
 }
 .list {
   list-style: none;
+}
+.btn {
+  font-family: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+  background-color: var(--color-btn-hover-ocean);
+}
+.btn-dark {
+  background-color: #e7e9fc;
 }
 /* 
   |==========================================================
@@ -51,6 +67,7 @@ body {
 .header-nav {
 }
 .header-logo {
+  text-transform: uppercase;
 }
 .header-list {
 }
