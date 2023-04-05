@@ -7,11 +7,13 @@
   --color-txt-caption-cloud: #f4f4fd;
   --color-txt-white: #ffffff;
   /* BG colors */
-  --color-bg-btn-hover-ocean: #404bbf;
   --color-bg-white: #ffffff;
   --color-bg-navy-blue: #2e2f42;
+  --color-bg-cloud: #f4f4fd;
   --color-bg-btn-iris: #4d5ae5;
+  --color-bg-btn-hover-ocean: #404bbf;
   --color-bg-btn-cloud: #f4f4fd;
+
   --color-green: #31d0aa;
   --color-light-slate: #8e8f99;
   --color-cornflower: #e7e9fc;
@@ -62,6 +64,7 @@ body {
   cursor: pointer;
   font-weight: 500;
   align-items: center;
+  text-align: center;
   letter-spacing: 0.04em;
 }
 .btn:hover,
@@ -114,7 +117,8 @@ body {
 .header-contact-link:hover,
 .header-contact-link:focus {
   color: var(--color-txt-nav-hover-ocean);
-} /* 
+}
+/* 
   |==========================================================
   | Hero styles
   |==========================================================
@@ -138,6 +142,7 @@ body {
   |==========================================================
 */
 .features {
+  background-color: var(--color-bg-white);
 }
 .features-title {
 }
@@ -146,16 +151,28 @@ body {
 .features-item {
 }
 .features-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--color-txt-caption-navy-blue);
 }
 .features-undersubtitle {
-} /* 
+}
+/* 
   |==========================================================
   | Product styles
   |==========================================================
 */
 .product {
+  background-color: var(--color-bg-white);
 }
 .product-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--color-txt-caption-navy-blue);
 }
 .product-list {
 }
@@ -164,30 +181,87 @@ body {
 .product-img {
   width: 360px;
   height: 300px;
-} /* 
+}
+/* 
   |==========================================================
   | Team styles
   |==========================================================
 */
 .team {
+  background-color: var(--color-bg-cloud);
 }
 .team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--color-txt-caption-navy-blue);
 }
 .team-list {
 }
 .team-item {
+  background-color: var(--color-bg-white);
 }
 .team-img {
+  width: 264px;
+  height: 260px;
 }
 .team-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--color-txt-caption-navy-blue);
 }
 .team-undersubtitle {
-} /* 
+  text-align: center;
+}
+/* 
   |==========================================================
   | Footer styles
   |==========================================================
 */
 .footer {
+  background-color: var(--color-bg-navy-blue);
 }
 .footer-undersubtitle {
+  color: var(--color-txt-caption-cloud);
+}
+/* 
+  |==========================================================
+  | Portfolio styles
+  |==========================================================
+*/
+.cv {
+  background-color: var(--color-bg-white);
+}
+.cv-title {
+}
+.cv-list {
+}
+.cv-item {
+}
+.cv-img {
+  width: 360px;
+  height: 300px;
+}
+.cv-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--color-txt-caption-navy-blue);
+}
+.cv-undersubtitle {
+}
+.cv-filter-list {
+}
+.cv-filter-item {
+}
+.cv-filter-btn {
+  color: var(--color-bg-btn-iris);
+}
+.cv-filter-btn:hover,
+.cv-filter-btn:focus {
+  color: var(--color-txt-white);
 }
