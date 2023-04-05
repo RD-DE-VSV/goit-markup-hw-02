@@ -36,13 +36,13 @@ body {
 .section {
 }
 .logo {
+  text-transform: uppercase;
 }
-/* Reset  styles*/
-.link {
-  text-decoration: none;
+.logo-light {
+  text-transform: uppercase;
 }
-.list {
-  list-style: none;
+.logo-dark {
+  text-transform: uppercase;
 }
 .btn {
   font-family: inherit;
@@ -55,6 +55,13 @@ body {
 }
 .btn-dark {
   background-color: #e7e9fc;
+}
+/* Reset  styles*/
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
 }
 /* 
   |==========================================================
@@ -89,3 +96,73 @@ body {
 .header-contact-link {
 }
 /* uppertitle undertitle slider */
+/* 
+  |==========================================================
+  | Hero styles
+  |==========================================================
+*/
+.hero {
+}
+.hero-title {
+}
+.hero-btn {
+}
+/* 
+  |==========================================================
+  | Features styles
+  |==========================================================
+*/
+.features {
+}
+.features-title {
+}
+.features-list {
+}
+.features-item {
+}
+.features-subtitle {
+}
+.features-undersubtitle {
+} /* 
+  |==========================================================
+  | Product styles
+  |==========================================================
+*/
+.product {
+}
+.product-title {
+}
+.product-list {
+}
+.product-item {
+}
+.product-img {
+  width: 360px;
+  height: 300px;
+} /* 
+  |==========================================================
+  | Team styles
+  |==========================================================
+*/
+.team {
+}
+.team-title {
+}
+.team-list {
+}
+.team-item {
+}
+.team-img {
+}
+.team-subtitle {
+}
+.team-undersubtitle {
+} /* 
+  |==========================================================
+  | Footer styles
+  |==========================================================
+*/
+.footer {
+}
+.footer-undersubtitle {
+}
