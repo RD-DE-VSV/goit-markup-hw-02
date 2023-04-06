@@ -263,6 +263,7 @@ body {
   color: var(--color-txt-caption-navy-blue);
 }
 .cv-undersubtitle {
+  color: var(--color-txt-main-slate);
 }
 .cv-filter-list {
 }
