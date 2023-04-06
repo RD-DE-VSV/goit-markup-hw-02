@@ -249,6 +249,8 @@ body {
 }
 .cv-item {
 }
+.cv-item-link {
+}
 .cv-img {
   width: 360px;
   height: 300px;
@@ -257,6 +259,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--color-txt-caption-navy-blue);
 }
 .cv-undersubtitle {
