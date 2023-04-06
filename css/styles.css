@@ -36,6 +36,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-txt-main-slate);
+  background-color: var(--color-bg-white);
   /*  
   text-align: inherit;
   */
@@ -66,6 +67,8 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
+  font-size: 16px;
+  line-height: 1.5;
 }
 .btn:hover,
 .btn:focus {
@@ -131,6 +134,7 @@ body {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
+  letter-spacing: 0.02em;
   color: var(--color-txt-white);
 }
 .hero-btn {
@@ -155,6 +159,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   color: var(--color-txt-caption-navy-blue);
+  letter-spacing: 0.02em;
 }
 .features-undersubtitle {
 }
@@ -196,6 +201,7 @@ body {
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
   color: var(--color-txt-caption-navy-blue);
 }
 .team-list {
@@ -211,6 +217,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   text-align: center;
   color: var(--color-txt-caption-navy-blue);
 }
